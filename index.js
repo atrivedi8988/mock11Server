@@ -18,7 +18,7 @@ app.post("/item",async(req,res)=>{
 })
 
 mongoose.connect("mongodb+srv://aman:amantrivedi@cluster0.ddklfbc.mongodb.net/revisionshop").then(()=>{
-    app.listen(8080,()=>{
+    app.listen(8081,()=>{
         console.log("i am hearig on 8080")
     })
 })
